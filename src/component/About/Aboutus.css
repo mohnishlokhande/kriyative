@@ -1,0 +1,240 @@
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100vw;
+}
+
+.rowcard1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.aboutcard1{
+    background: #228C86;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    width: 49%;
+    align-items: center;
+}
+.aboutcard2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    width: 51%;
+    background-color: white;
+} 
+.card1{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.head_1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 131.8%;
+    text-align: left;
+    /* or 47px */
+
+
+    color: #FFFFFF;
+}
+.detail_1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 131.8%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.rowcard2{
+    background-image: url(./img/about_2.png);
+    background-size: contain;
+    display: flex;
+    flex-direction:  row;
+    justify-content: flex-end;
+    
+}
+.aboutcard2_2{
+    background: #F0B419;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 51.7%;
+    display: flex;
+    justify-content: center;
+
+}
+.card2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    color: #000000;
+    padding: 50px;
+}
+.head_2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 131.8%;
+    /* or 47px */
+    color: #000000;
+}
+.detail_2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 131.8%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+.rowcard3{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 100%;
+}
+
+.aboutcard1_3{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 49%;
+    background: #517FA4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    /* color: white; */
+    padding: 50px;
+}
+.head_3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 131.8%;
+    /* or 47px */
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.detail_3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 131.8%;
+    /* or 47px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.aboutcard2_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    width: 51%;
+    background-color: white;
+}
+.aboutcard2 img {
+    width: 100%;
+}
+.aboutcard2_3 img {
+    width: fit-content;
+}
+
+.rowcard4{
+    display: flex;
+    flex-direction: row;
+}
+.aboutcard1_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.aboutcard2_4{
+    background: #228C86;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.card4{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.head_4{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 131.8%;
+    /* or 47px */
+
+
+    color: #000000;
+}
+.detail_4{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 131.8%;
+    /* or 29px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+@media only screen and (max-width: 769px){
+    .rowcard1, .rowcard2, .rowcard3{
+        flex-direction: column;
+    }
+    .card1, .card2, .card3, .aboutcard1, .aboutcard2_2, .aboutcard1_3{
+        width: auto;
+    }
+    .aboutcard2, .aboutcard2_3{
+        display: none;
+    }
+}

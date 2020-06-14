@@ -18,15 +18,15 @@ class Header extends Component {
     toggleNav(){
         this.setState({
             isNavOpen: !this.state.isNavOpen
-        })
+        });
     }
 
     render(){
         return(
             <>
-                <Navbar className="nav"  expand="md">
+                <Navbar dark expand="md">
                     <NavbarToggler onClick={this.toggleNav} />
-                    <NavbarBrand className="nav-logo">
+                    <NavbarBrand className="nav-logo" href="/">
                         <img src={Logo} height="70" width="146" alt="Kriyative" />
                     </NavbarBrand>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
