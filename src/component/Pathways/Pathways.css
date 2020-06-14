@@ -1,0 +1,168 @@
+
+
+.image_one {
+    display: flex;
+    background: url(./img/learn_1.png);
+    background-size: cover;
+    height: 577px;
+    align-items: center;
+    justify-content: flex-end;
+}   
+
+.card_1{
+    width: 705px;
+    height: 295px;
+    background: rgba(34, 140, 134, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+}
+
+.details{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 159%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
+.image_2{
+    background: url(./img/learn_2.png);
+      /* Full height */
+  height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    
+}
+
+.outercontainer{
+    height: 100%;
+    margin: 0;
+}
+
+.card_2{
+    background: rgba(240, 180, 25, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 159%;
+    /* or 48px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000; 
+}
+
+.para{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 159%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+.image_3{
+    display: flex;
+    background: url(./img/learn_3.png);
+    background-size: cover;
+    height: 650px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card_3{
+    background: rgba(81, 127, 164, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading3{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 159%;
+    /* or 48px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+.contentDiv1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.para2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 159%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,257 @@
+.kriyativeContainer{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+}
+.kriyativecard{
+    background: rgba(34, 140, 134, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-left: 4%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.cardtitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+}
+.carddetails{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+.outerboxcard1{
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-image: url(./img/metho_1.png);
+}
+.kriyativecard1{
+    width: 52.3%;
+    height: 100%;
+    background: rgba(240, 180, 25, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innercard1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.cardtitle1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.carddetails1{
+    /* font-family: Red Hat Display; */
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+
+    color: #000000;
+
+}
+
+.kriyativecard2{
+    background: rgba(81, 127, 164, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 48%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerboxcard2{
+    display: flex;
+    background-size: cover;
+    background-image: url(./img/metho_2.png);
+}
+.innercard2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 30px;
+}
+.cardtitle2{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 131.8%;
+    text-decoration-line: underline;
+}
+.carddetails2{
+    text-align: justify;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 159%;
+}
+
+.outerboxcard3{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(./img/metho_3.png);
+    background-size: cover;
+}
+
+.kriyativecard3{
+    background: rgba(224, 227, 47, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 52.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercard3{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.cardtitle3{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 159%;
+    /* or 48px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+.carddetails3{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.outerboxcard4{
+    background-image: url(./img/metho_4.png);
+    background-size: cover;
+    display: flex;
+}
+.kriyativecard4{
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innercard4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 35px;
+}
+.cardtitle4{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 131.8%;
+    /* or 40px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+.carddetails4{
+    position: absolute;
+    width: 511px;
+    height: 175px;
+    left: 91px;
+    top: 2616px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+@media only screen and (max-width: 769px){
+    .kriyativecard{
+        width: 100%;
+        height: fit-content;
+        padding: 30px
+    }
+    .outerboxcard1{
+        justify-content: center;
+        height: fit-content ;
+    }
+    .kriyativecard1{
+        width: 100%;
+    }
+    .outerboxcard2, .outerboxcard3, .outerboxcard4{
+        justify-content: center;
+        height: fit-content;
+    }
+    .kriyativecard2, .kriyativecard3, .kriyativecard4{
+        width: 100%;
+    }
+    .innercard1, .innercard2, .innercard3, .innercard4{
+        padding: 0;
+    }
+}

@@ -1,0 +1,25 @@
+
+.nav-link{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    margin-left: 25px;
+    
+}
+.nav-logo {
+    
+    width: 146px;
+    height: 70px;
+    left: 24px;
+    top: 24px;
+    margin-right: auto;
+    color: #E5E5E5;
+
+}
+
+.nav {
+    border-bottom: solid 1px black;
+    
+}
