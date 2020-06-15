@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Navbar, NavbarBrand, NavItem, Nav, NavbarToggler, Collapse,NavLink} from 'reactstrap';
-//import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo  from './KRIYATIVE_LOGO.png';
 import './Header.css';
 
@@ -32,19 +32,19 @@ class Header extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="/" className="nav-link" style={{color:'#75BE17'}} >
+                                <Link className="nav-link" style={{color:'#75BE17'}} to="/pathways">
                                     Learning Pathways
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}} to="/metho">
                                     KRIYA Methodology
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}} to="/about">
                                     About Us
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" style={{color:'#75BE17'}}>

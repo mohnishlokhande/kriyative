@@ -57,12 +57,12 @@
 .image_2{
     background: url(./img/learn_2.png);
       /* Full height */
-  height: 650px;
+    height: 650px;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
 }
 
@@ -93,7 +93,7 @@
     align-items: center;
     text-align: center;
     text-decoration-line: underline;
-    
+    justify-content: center;
     color: #000000; 
 }
 
@@ -114,7 +114,7 @@
 .image_3{
     display: flex;
     background: url(./img/learn_3.png);
-    background-size: cover;
+    background-size: 100% 100%;
     height: 650px;
     align-items: center;
     justify-content: flex-end;
@@ -149,7 +149,8 @@
     flex-direction: column;
     width: 90%;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    
 }
 
 .para2{
@@ -165,4 +166,92 @@
     text-align: justify;
 
     color: #FFFFFF;
+}
+
+.image_4{
+    background-image: url(./img/learn_4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 583px;
+}
+.card_4{
+    background: rgba(224, 227, 47, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.para2_1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.para2_2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 131.8%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.image_5{
+    background-image: url(./img/learn_5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 577px;
+    display: flex;
+    
+    justify-content: flex-end;
+}
+.card_5{
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.contentDiv2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    
+}
+.contentDiv3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 769px){
+    .outercontainer{
+        width: 100%;
+        height: fit-content;
+        padding: 3px;
+    }
+    .image_one,.image_2, .image_3,.image_4,.image_5{
+        height: fit-content;
+    }
+    .card_1,.card_2,.card_3,.card_4,.card_5{
+        width: 100%;
+        
+    }
 }

@@ -5,7 +5,7 @@
     font-weight: normal;
     font-size: 19px;
     line-height: 25px;
-    margin-left: 60px;
+    margin-left: 5vw;
     display: flex;
     align-items: flex-start;
     justify-content: start;
@@ -28,4 +28,15 @@
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url(./download.png); 
+}
+
+@media only screen and (max-width:1367px){
+    .nav-link{
+        margin-left: 2vw;
+    }
+}
+@media only screen and (max-width: 969px){
+    .nav-link{
+        margin-left: 1px;
+    }
 }

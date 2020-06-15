@@ -240,6 +240,7 @@
     .outerboxcard1{
         justify-content: center;
         height: fit-content ;
+        padding: 3px;
     }
     .kriyativecard1{
         width: 100%;

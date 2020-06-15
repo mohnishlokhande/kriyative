@@ -6,10 +6,10 @@ import child3 from './img/smallbaby.png';
 import child2 from './img/smallgirl.png';
 import back from './img/arrow_back_ios_24px.png';
 import forward from './img/arrow_forward_ios_24px.png';
-import expert from './img/1_motivated.png';
+import willing from './img/5_willing.png';
 import { Link } from 'react-router-dom';
 
-class About extends Component{
+class About5 extends Component{
 
 
     render(){
@@ -45,12 +45,12 @@ class About extends Component{
                             <h1 className="head_3">Who is a KRIYATOR?</h1>
                             <br />
                             <div className="arrow">
-                                <span><Link to="/about5"><img src={back} /></Link><span className="tab"></span><Link to="/about2"><img src={forward} /></Link></span>
+                                <span><Link to="/about4"><img src={back} /></Link><span className="tab"></span><Link to="/about"><img src={forward} /></Link></span>
                             </div>
                             <br />
                             <br />
                             <div className="icon">
-                            <span><img src={expert }/></span><span className="tab"></span> <p className="detail_3">Highly motivated</p>
+                            <span><img src={willing }/></span><span className="tab"></span><p className="detail_3">willing to reinvent</p>
                             </div>
                         </div>
                     </div>
@@ -78,4 +78,4 @@ class About extends Component{
 }
 
 
-export default About;
+export default About5;

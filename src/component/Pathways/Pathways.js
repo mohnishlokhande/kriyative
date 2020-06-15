@@ -48,6 +48,34 @@ class Pathways extends Component{
                         </div>
                     </div>
                 </div>
+                <div className="image_4">
+                    <div className="card_4">
+                        <div className="contentDiv2">
+                            <h2 className="heading2">For New Schools</h2>
+                            <br />
+                            <p className="para2_1">Welcome to the education field! Where many a future is shaped and many a life is changed. Further, welcome to Kriyative! Your one-time solution to all education needs and queries.</p>
+                            <br/>
+                            <p className="para2_1">Welcome to the education field! Where many a future is shaped and many a life is changed. Further, welcome to Kriyative! Your one-time solution to all education needs and queries.</p>
+                            <br />
+                            <p className="para2_2"><b>1. Subscribe your school to Kriyative</b></p>
+                            <br />
+                            <p className="para2_2"><b>2. Employ Kriyative Leap</b></p>
+                            <br />
+                            <p className="para2_2"><b>3. Continued support and facilitation by Kriyative</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="image_5">
+                    <div className="card_5">
+                        <div className="contentDiv3">
+                            <h2 className="heading2">For Corporates</h2>
+                            <br />
+                            <p className="para2_1">Corporate Social Responsibility brings the best of entrepreneurship and social good together. It not only provides opportunity to work for welfare of society, but the reach provided by this is extensive - thus building a superior brand image for the corporate and its employees.</p>
+                            <br />
+                            <p className="para2_1">Despite the widespread Sarva Shiksha Abhiyaan, that has reached out to millions of children across the nation, one factor often overlooked while working towards a better education sector is the quality of education provided. Enter Corporates, to fill the void here. And what better partner than Kriyative? Pioneers in differential education, our handy learning modules will guide you through any education project you take up. Partner with us, to make a real difference!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
