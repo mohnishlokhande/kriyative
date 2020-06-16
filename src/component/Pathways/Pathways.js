@@ -58,9 +58,9 @@ class Pathways extends Component{
                             <p className="para2_1">Welcome to the education field! Where many a future is shaped and many a life is changed. Further, welcome to Kriyative! Your one-time solution to all education needs and queries.</p>
                             <br />
                             <p className="para2_2"><b>1. Subscribe your school to Kriyative</b></p>
-                            <br />
+                            
                             <p className="para2_2"><b>2. Employ Kriyative Leap</b></p>
-                            <br />
+                            
                             <p className="para2_2"><b>3. Continued support and facilitation by Kriyative</b></p>
                         </div>
                     </div>

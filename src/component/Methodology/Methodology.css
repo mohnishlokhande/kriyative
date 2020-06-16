@@ -16,6 +16,7 @@
     padding-right: 10%;
     padding-bottom: 30px;
     padding-top: 30px;
+    height: 374px;
 
 }
 
@@ -55,7 +56,7 @@
     align-items: center;
 }
 .innercard1{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -136,7 +137,7 @@
 }
 
 .innercard3{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +241,7 @@
     .outerboxcard1{
         justify-content: center;
         height: fit-content ;
-        padding: 3px;
+        
     }
     .kriyativecard1{
         width: 100%;
@@ -254,5 +255,10 @@
     }
     .innercard1, .innercard2, .innercard3, .innercard4{
         padding: 0;
+    }
+    .kriyativeContainer{
+        width: 100%;
+        height: fit-content;
+        padding: 3px;
     }
 }

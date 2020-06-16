@@ -5,10 +5,10 @@
     font-weight: normal;
     font-size: 19px;
     line-height: 25px;
-    margin-left: 5vw;
+    margin-left: 4vw;
     display: flex;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .nav-logo {
     
@@ -38,5 +38,18 @@
 @media only screen and (max-width: 969px){
     .nav-link{
         margin-left: 1px;
+    }
+}
+/* @media only screen and (max-width: 818px){
+    .nav-link{
+        display: none;
+    }
+}*/
+@media only screen and (max-width: 828px){
+    .collapse.show {
+        display: block;
+    } 
+    .navbar-toggler-icon{
+        display: block;
     }
 }

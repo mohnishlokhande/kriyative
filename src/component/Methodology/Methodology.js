@@ -7,10 +7,10 @@ render() {
             <div className="kriyativeContainer">
 
                 <div className="kriyativecard"> 
-                        <h1 className="cardtitle">
-                           Wheel of KRIYA 
-                        </h1>
-                        <p className="carddetails">Wheel of Kriya an innovative approach to education, aims at enabling assimilation of knowledge by engaging in the processes of creating a Knowledge Base, Rationalizing, Intensifying, Yoke(ing), and Assessing. The wheel of Kriya, thus in its structured style provides what mainstream education seems to lack – a wholesome internalizing of knowledge. While the latter seems to be focused on shoving facts, The Wheel of Kriya does something better – provide learning / education where the children don’t collect facts but rather understand them intrinsically. </p>
+                    <h1 className="cardtitle">
+                        Wheel of KRIYA 
+                    </h1>
+                    <p className="carddetails">Wheel of Kriya an innovative approach to education, aims at enabling assimilation of knowledge by engaging in the processes of creating a Knowledge Base, Rationalizing, Intensifying, Yoke(ing), and Assessing. The wheel of Kriya, thus in its structured style provides what mainstream education seems to lack – a wholesome internalizing of knowledge. While the latter seems to be focused on shoving facts, The Wheel of Kriya does something better – provide learning / education where the children don’t collect facts but rather understand them intrinsically. </p>
                 </div>
 
                <div className="outerboxcard1">               

@@ -24,12 +24,12 @@ class About5 extends Component{
                         </div>
                     </div>
                     <div className="aboutcard2">
-                        <img src={child1} />
+                        <img src={child1} alt="img"/>
                     </div>
                 </div>
                 <div className="rowcard2">
                     <div className="aboutcard2_1">
-                        <img src ={child2} />
+                        <img src ={child2} alt="img"/>
                     </div>
                     <div className="aboutcard2_2">
                         <div className="card2">
@@ -45,22 +45,22 @@ class About5 extends Component{
                             <h1 className="head_3">Who is a KRIYATOR?</h1>
                             <br />
                             <div className="arrow">
-                                <span><Link to="/about4"><img src={back} /></Link><span className="tab"></span><Link to="/about"><img src={forward} /></Link></span>
+                                <span><Link to="/about4"><img src={back} alt="back"/></Link><span className="tab"></span><Link to="/about"><img src={forward} alt="forward"/></Link></span>
                             </div>
                             <br />
                             <br />
                             <div className="icon">
-                            <span><img src={willing }/></span><span className="tab"></span><p className="detail_3">willing to reinvent</p>
+                            <span><img src={willing } alt="img"/></span><span className="tab"></span><p className="detail_3">willing to reinvent</p>
                             </div>
                         </div>
                     </div>
                     <div className="aboutcard3_2">
-                        <img src={flowcircle} />
+                        <img src={flowcircle} alt="img"/>
                     </div>
                 </div>
                 <div className="rowcard4">
                     <div className="aboutcard4_1">
-                        <img src={child3} />
+                        <img src={child3} alt="img" />
                     </div>
                     <div className="aboutcard4_2">
                         <div className="card4">

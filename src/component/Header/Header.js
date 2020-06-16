@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Navbar, NavbarBrand, NavItem, Nav, NavbarToggler, Collapse,NavLink} from 'reactstrap';
+import {Navbar, NavbarBrand, NavItem, Nav, NavbarToggler, Collapse} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Logo  from './KRIYATIVE_LOGO.png';
 import './Header.css';
@@ -47,29 +47,29 @@ class Header extends Component {
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}}>
                                     Resources
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}}>
                                     News
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}}>
                                     Buy
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}}>
                                     Partner
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}}>
                                     Contact
-                                </NavLink>
+                                </Link>
                             </NavItem>
                         </Nav>  
                     </Collapse>

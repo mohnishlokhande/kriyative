@@ -262,16 +262,19 @@
 @media only screen and (max-width: 769px){
     .rowcard1, .rowcard2, .rowcard3, .rowcard4{
         flex-direction: column;
+        justify-content: center;
+        height: fit-content;
     }
     .card1, .card2, .card3, .card4,.aboutcard1, .aboutcard2_2, .aboutcard3_1, .aboutcard4_2{
         width: auto;
     }
     .aboutcard2, .aboutcard2_1 ,.aboutcard3_2,.aboutcard4_1{
         display: none;
+        width: 100%;
     }
     .maincontainer{
         width: 100%;
-        height: fit-content;
+        height: fit-content; 
         padding: 3px;
     }
     
