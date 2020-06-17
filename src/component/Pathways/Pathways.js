@@ -11,7 +11,7 @@ class Pathways extends Component{
                 <div className="image_one">
                     <div className="card_1">
                         <div className="contentDiv">
-                            <h3 className="heading">Learning Pathways</h3>
+                            <h3 className="heading">Pathways</h3>
                             <br />
                             <p className="details">The most engaging aspect is not only our unique approach to learning and everything under the sun, but the ability for everyone engaged in it, to pick up something new and valuable!</p>
                             <br />
