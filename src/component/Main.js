@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import Pathways from './Pathways/Pathways';
 import Methodology from './Methodology/Methodology';
 import About  from './About/Aboutus';
@@ -25,6 +26,7 @@ class Main extends Component {
                     <Route path="/about5" component={About5}/>
                     <Redirect to="/pathways" />  
                 </Switch>
+                <Footer />
             </div>
         );
     }
