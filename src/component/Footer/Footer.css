@@ -12,3 +12,15 @@ address{
     margin:0px;
     color:#0f0f0f;
 }
+.text-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+/* .mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} */
