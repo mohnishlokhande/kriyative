@@ -7,7 +7,7 @@ function Footer(){
         <div className="footer">
             <div className="col-12">
                 <div className="row justify-content-center">             
-                    <div className="col-4 offset-2 col-sm-2">
+                    <div className="col-12 offset-sm-1 col-sm-3">
                         <h5 style={{textAlign: "justify"}}>Links</h5>
                         <ul className="list-unstyled">
                             <li style={{textAlign: "justify"}}><Link to="/pathways">Learning Pathways</Link></li>
@@ -16,7 +16,7 @@ function Footer(){
                             <li style={{textAlign: "justify"}}><Link to="/contactus">Contact Us</Link></li>
                         </ul>
                     </div>
-                    <div className="col-7 offset-1 col-sm-3">
+                    <div className="col-12 offset-sm-1 col-sm-3">
                         <h5 style={{textAlign: "justify"}}>Our Address</h5>
                         <address style={{textAlign: "justify"}}>
                         26, Ghagj GJhbhb<br />
