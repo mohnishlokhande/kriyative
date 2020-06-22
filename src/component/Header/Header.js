@@ -67,7 +67,7 @@ class Header extends Component {
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" style={{color:'#75BE17'}}>
+                                <Link className="nav-link" style={{color:'#75BE17'}} to="/contactus">
                                     Contact
                                 </Link>
                             </NavItem>

@@ -8,6 +8,7 @@ import About2  from './About/Aboutus2';
 import About3  from './About/Aboutus3';
 import About4  from './About/Aboutus4';
 import About5  from './About/Aboutus5';
+import Contact from './Contact/ContactUs';
 import { Switch,Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {
@@ -24,6 +25,7 @@ class Main extends Component {
                     <Route path="/about3" component={About3}/>
                     <Route path="/about4" component={About4}/>
                     <Route path="/about5" component={About5}/>
+                    <Route path="/contactus" component={Contact}/>
                     <Redirect to="/pathways" />  
                 </Switch>
                 <Footer />
